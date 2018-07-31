@@ -1,0 +1,26 @@
+{
+  "name": "Microblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "buffertools": "^2.1.6",
+    "chai": "^4.1.2",
+    "grunt-status": "0.0.1",
+    "mocha": "^5.2.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  }
+}
