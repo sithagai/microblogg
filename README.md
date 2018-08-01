@@ -11,39 +11,45 @@ The posts are displayed in a simplified interface in real-time with no censorshi
 
 A Post contains:
 
-Username.
-Address of author.
-Post data.
+Username,
+Address of author,
+Post data,
 Data Time of the post.
 
 Tech :
 
-Solidity
-Truffle frameworks 
-Ganache (Local Deployment)
-MetaMask(Web3 Injection into browser)
-Web3.js (FrontEnd)
-HTML & Bootstrap (Designing FrontEnd)
+Solidity,
+Truffle frameworks, 
+Ganache (Local Deployment),
+MetaMask(Web3 Injection into browser),
+Web3.js (FrontEnd),
+HTML & Bootstrap (Designing FrontEnd).
 
 
 Steps :
 
-git clone <>
-Open a browser and ensure MetaMask is set up to custom RPC http://localhost:8545
-Run Ganache
-truffle migrate --network ganache --reset
-truffle test
-truffle console
-In terminal run npm install .
+git clone <>,
+Open a browser and ensure MetaMask is set up to custom RPC http://localhost:8545,
+Run Ganache,
+truffle migrate --network ganache --reset,
+truffle test,
+truffle console,
+In terminal run npm install ..
 
 Cmd:
-ganache-cli -p 8545
+ganache-cli -p 8545,
 
-truffle compile 
+truffle compile ,
 
-truffle migrate 
+truffle migrate ,
 
-npm run dev
+npm run dev,
+
+reference:
+
+https://truffleframework.com/
+http://ethertweet.net/
+https://github.com/yep/eth-tweet
 
 
 error :
